@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="main.css">
+    <title>Forms</title>
+  </head>
+
+  <body>
+        <form action="https://echo.htmlacademy.ru/courses" method="get">
+            <h1>ЗАО Птицефабрика №1</h1>
+            <table>
+                <tr>
+                    <td>
+                        <label  for="Sur"><div class="right">Фамилия</div></label>
+                    </td>
+                    <td>
+                        <input type="text" name="Surname" id="Sur">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label  for="initials"><div class="right">Инициалы</div></label>
+                    </td>
+                    <td>
+                        <input type="text" name="initials" id="initials">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Pas"><div class="right">Пароль</div></label>
+                    </td>
+                    <td>
+                        <input type="password" name="password" id="Pas">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label  for="address"><div class="right">Адрес получателя</div></label>
+                    </td>
+                    <td>
+                        <textarea cols="40" rows="1" name="address" id="address"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label  for="kolvo"><div class="right">Количество</div></label>
+                    </td>
+                    <td>
+                        <textarea cols="12" rows="1" name="kolvo" id="kolvo"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label  for="type"><div class="right">Тип</div></label>
+                    </td>
+                    <td>
+                        <select name="type1">
+                            <option value="chiken" checked>Куринные</option>
+                            <option value="turkey">Индюшинные</option>
+                        </select>
+                    
+                        <select name="type2">
+                            <option value="selected" checked>Отборные</option>
+                            <option value="unselected">Не отборные</option>
+                            </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="right">Доставка</div>
+                    </td>
+                    <td>
+                        <label><input type="radio" value="mail" name="del"> Почтой </label>
+                        <label><input type="radio" value="electro" name="del"> Электронно</label>
+                        <label><input type="radio" value="courier" name="del"> Курьером</label>
+                </tr>
+                <tr>
+                    <td>
+                        <label  for="nakladnaya"><div class="right">Требуется накладная</div></label>
+                    </td>
+                    <td>
+                        <input type="checkbox" id="nakladnaya">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label  for="dop"><div class="right">Требуется накладная</div></label>
+                    </td>
+                    <td>
+                        <textarea cols="55" rows="3"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="right"><input type="submit" value="Заказать"></div>
+                    </td>
+                    <td>
+                        <input type="reset" value="Отменить">
+                    </td>
+                </tr>
+            </table>
+        </form>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+table{
+    width:100%;
+}
+
+td
+{
+    width:50%;
+}
+
+.right
+{
+    text-align: right;
+}
+
+h1
+{
+    padding-left: 430px;
+}
+
+option
+{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+div
+{
+    vertical-align: middle;
+}
